@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <style>
+        body{
+            background-image: url("images/download2.webp");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .login
+        {
+            
+            margin-bottom: 11%;
+            background-color: rgba(255, 255, 255, .5);
+            backdrop-filter: blur(3px);
+            margin-top: 11%;
+             
+            
+        }
+        .form-control{
+            height: 55px;
+        }
+        .login:hover{
+            transform: perspective(50px) rotateY(1deg) scale(1.1);
+            transition:all .5s;
+        }
+    </style>
+</head>
+<body class="bg-warning">
+    <div class="container-fluid">
+        <div class="row">
+     
+            <div class="col-sm-5 mx-auto border-warning border-top border-bottom border-3 login text-center rounded-1 p-4 ">
+              <h2> <span>Admin</span> <span class="text-warning">Login</span> 
+            <i class="fa-solid fa-key text-warning fa-spin"></i></h2>
+          
+            <div class="input-group">
+                <span class="input-group-text bg-warning">
+                    <i class="fa-solid fa-envelope"></i> </span>
+                    <input type="email" placeholder="Userid" required class="form-control"> <br>
+               
+            </div>
+            <br>
+            
+             <div class="input-group">
+                <span class="input-group-text bg-warning">
+                     <i class="fa-solid fa-lock"></i> </span>
+                    <input type="password" placeholder="Password" required class="form-control"> <br>
+                
+            </div>
+            <br>
+
+           
+            
+            <input type="button" value="Login" class=" bg-warning form-control">
+           
+        </div>
+         
+    </div>
+</body>
+</html>
